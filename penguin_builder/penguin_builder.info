@@ -1,0 +1,22 @@
+name = Penguin Site Builder Feature
+description = Modules for site building and administration. Should be disabled in production.
+core = 7.x
+package = Penguin
+version = 7.x-1.x-dev
+
+features[features_api][] = api:1
+
+; Core
+dependencies[] = update
+
+; Features
+dependencies[] = penguin_core
+
+; Core
+dependencies[] = field_ui
+
+; Contrib
+dependencies[] = admin_menu
+dependencies[] = stage_file_proxy
+dependencies[] = views_ui
+dependencies[] = diff

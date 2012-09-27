@@ -1,0 +1,40 @@
+name = Penguin Core Feature
+description = Generic core functionality and configuration.
+core = 7.x
+package = Penguin
+version = 7.x-1.x-dev
+
+features[features_api][] = api:1
+
+; Core
+dependencies[] = block
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = user
+
+; Contrib
+dependencies[] = bean
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = ds
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = globalredirect
+dependencies[] = libraries
+dependencies[] = nodequeue
+dependencies[] = page_manager
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = variable
+dependencies[] = views

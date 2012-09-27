@@ -1,0 +1,13 @@
+name = Penguin Themer Feature
+description = Theming related modules and configuration. Should be disabled in a production environment.
+core = 7.x
+package = Penguin
+version = 7.x-1.x-dev
+
+features[features_api][] = api:1
+
+; Features
+dependencies[] = penguin_dev
+
+; Contrib
+dependencies[] = devel_themer
